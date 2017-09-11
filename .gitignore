@@ -2,4 +2,5 @@
 *.c
 *.h
 *.txt
+compiler
 cmake-build-debug
