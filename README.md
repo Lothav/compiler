@@ -1,7 +1,7 @@
 # Flex / Bison - Lexical / Parser analyser
 
 ### Support the following grammar: 
-
+```
 program     →   block
 
 block       →   { decls stmts }
@@ -30,7 +30,7 @@ term        →   term * unary | term / unary | unary
 unary       →   - unary | factor
 
 factor      →   num | real
-
+```
 ### How to use:
 
 #### - make sure have GNU Bison and Flex installed.
