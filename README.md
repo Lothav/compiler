@@ -1,6 +1,6 @@
 # Flex / Bison - Lexical / Parser analyser
 
-####Supports the following grammar: 
+#### Supports the following grammar: 
 ```
 program     →   block
 
@@ -33,6 +33,6 @@ factor      →   num | real
 ```
 #### How to use:
 
->1. make sure have GNU Bison and Flex installed.
->2. # chmod +x ./run
->3. ./run
+1. make sure have GNU Bison and Flex installed.
+2. \# chmod +x ./run
+3. ./run
