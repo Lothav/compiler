@@ -1,0 +1,5 @@
+.idea
+*.c
+*.h
+*.txt
+cmake-build-debug

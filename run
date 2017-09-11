@@ -1,0 +1,4 @@
+bison -d bison.y &&
+flex flex.l &&
+g++ bison.tab.c lex.yy.c -lfl -o compiler &&
+./compiler
