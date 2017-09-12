@@ -105,10 +105,9 @@ int main(int, char**) {
 	do {
 		yyparse();
 	} while (!feof(yyin));
-
 }
 
 void yyerror(const char *s) {
-	cout << "EEK, parse error!  Message: " << s << endl;
+	cout << "Parse error!  Message: " << s << endl;
 	exit(-1);
 }

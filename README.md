@@ -2,34 +2,34 @@
 
 #### Supports the following grammar: 
 ```
-program     →   block
+program   →   block
 
-block       →   { decls stmts }
+block     →   { decls stmts }
 
-decls       →   decls decl | λ
+decls     →   decls decl | λ
 
-decl        →   type id ;
+decl      →   type id ;
 
-type        →   int | char | bool | float
+type      →   int | char | bool | float
 
-stmts       →   stmts stmt | λ
+stmts     →   stmts stmt | λ
 
-stmt        →   id = expr ;
-                | if ( rel ) stmt
-                | if ( rel ) stmt else stmt
-                | while ( rel ) stmt
-                | block
-                
-rel         →   expr < expr | expr <= expr | expr >= expr 
-                | expr > expr | expr
-                
-expr        →   expr + term | expr - term | term
+stmt      →   id = expr ;
+              | if ( rel ) stmt
+              | if ( rel ) stmt else stmt
+              | while ( rel ) stmt
+              | block
+              
+rel       →   expr < expr | expr <= expr | expr >= expr 
+              | expr > expr | expr
+              
+expr      →   expr + term | expr - term | term
 
-term        →   term * unary | term / unary | unary
+term      →   term * unary | term / unary | unary
 
-unary       →   - unary | factor
+unary     →   - unary | factor
 
-factor      →   num | real
+factor    →   num | real
 ```
 #### How to use:
 
